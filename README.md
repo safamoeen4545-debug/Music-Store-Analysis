@@ -1,9 +1,15 @@
 # SQL_Project_Music_Store_Analysis
-SQL project to analyze online music store data
 
-This project is for beginners and will teach you how to analyze the music playlist database. You can examine the dataset with SQL and help the store understand its business growth by answering simple questions.
+This repository contains SQL queries used to analyze a Music Store database.
+The questions are divided into Easy, Moderate, and Advanced levels, and each question is followed by the exact SQL query used.
 
-> Complete project explained on YouTube: https://www.youtube.com/watch?v=VFIuIjswMKM
+***Q1: Who is the senior most employee based on job title?
+SELECT *
+FROM employee
+ORDER BY levels DESC
+LIMIT 1;
+
+
 
 ## Database and Tools
 * Postgre SQL
